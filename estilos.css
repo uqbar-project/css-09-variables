@@ -9,7 +9,7 @@ html {
   --letra-secundario: white;
   --separacion-default: 2.5rem;
   --border-radius-default: 10px;
-  --border-radius-superior: calc(var(--border-radius-default) * 2);
+  --border-radius-grande: calc(var(--border-radius-default) * 2);
 }
 
 body {
@@ -28,13 +28,12 @@ body {
 }
 
 .precio {
-  --color-secundario: #1ab348;
   background-color: var(--color-secundario);
   color: var(--letra-secundario);
   padding: 1rem;
-  margin: var(--separacion-default) 30rem;
+  margin: var(--separacion-default) 50rem;
   font-size: 2em;
-  border-radius: var(--border-radius-superior);
+  border-radius: var(--border-radius-grande);
 }
 
 div {
@@ -42,7 +41,7 @@ div {
 }
 
 .primario {
-  background-color: var(--color-secundario);
+  background-color: var(--color-primario);
   color: var(--letra-primario);
   height: 3rem;
   width: 10rem;

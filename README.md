@@ -32,7 +32,7 @@ Para ello, tenemos que definir en el raíz del documento las custom properties, 
   --letra-secundario: white;
   --separacion-default: 2.5rem;
   --border-radius-default: 10px;
-  --border-radius-superior: calc(var(--border-radius-default) * 2);
+  --border-radius-grande: calc(var(--border-radius-default) * 2);
 }
 ```
 
@@ -59,7 +59,7 @@ Al definir el precio, estaremos usando el border-radius mayor:
   padding: 1rem;
   margin: var(--separacion-default) 30rem;
   font-size: 2em;
-  border-radius: var(--border-radius-superior);
+  border-radius: var(--border-radius-grande);
 }
 ```
 
