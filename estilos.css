@@ -31,8 +31,9 @@ body {
   background-color: var(--color-secundario);
   color: var(--letra-secundario);
   padding: 1rem;
-  margin: var(--separacion-default) 50rem;
+  margin: var(--separacion-default) auto;
   font-size: 2em;
+  width: 10em;
   border-radius: var(--border-radius-grande);
 }
 
