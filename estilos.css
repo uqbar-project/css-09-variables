@@ -3,12 +3,12 @@ html {
 }
 
 :root {
-  --color-primario: #000066;
+  --color-primario: #a5d35b;
   --letra-primario: white;
-  --color-secundario: steelblue;
+  --color-secundario: rgb(60, 124, 66);
   --letra-secundario: white;
   --separacion-default: 2.5rem;
-  --border-radius-default: 10px;
+  --border-radius-default: 25px;
   --border-radius-grande: calc(var(--border-radius-default) * 2);
 }
 
@@ -42,7 +42,7 @@ div {
 }
 
 .primario {
-  background-color: var(--color-primario);
+  background-color: var(--color-secundario);
   color: var(--letra-primario);
   height: 3rem;
   width: 10rem;
